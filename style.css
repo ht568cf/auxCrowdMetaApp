@@ -1,0 +1,67 @@
+* { padding: 0; margin: 0 } 
+
+
+#container{
+    margin: 20px;
+}
+
+input[type="button"]{ 
+    text-align:center;
+    width: 70px;
+    height: 20px; 
+    font-variant: small-caps;
+    margin: 3px;
+}
+
+input[type="number"]{ 
+    width: 30px;
+    height: 16px; 
+    margin: 3px;
+}
+
+#log{
+    border: 1px gray solid;
+    padding:20px;
+    overflow: auto;
+
+}
+
+#txtData{
+    min-width: 100%;
+    max-width: 100%;
+}
+.left{
+    float:left;
+}
+.right{
+    float: right;
+}
+.checkBoxContainer{
+    display: inline-block;
+    font-variant: small-caps;
+    font-size: 12px;
+    width: 90px;
+}
+.checkBoxContainer input{
+    vertical-align: bottom;
+}
+
+#help{
+    float: right;
+    text-align: center;
+    width:25px;
+}
+
+#graph{
+    
+    position: relative;
+    height: 600px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+

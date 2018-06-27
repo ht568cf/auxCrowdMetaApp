@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <LINK rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="lib/jquery-ui.min.css">
+        <script type="text/javascript" src="lib/jquery-3.1.0.min.js"></script>        
+        <script type="text/javascript" src="lib/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="metaCrowdApp/script.js"></script>
+        <script src="lib/jquery.ui.touch-punch.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/linkurious.js/1.5.1/sigma.min.js"></script>
+        <script src="lib/sigma.renderers.edgeLabels.min.js"></script>
+        <script src="lib/sigma.plugins.dragNodes.min.js"></script>
+
+    </head>
+    <body>
+        <div id="container">       
+          
+            <input id="loadFromDoc" type="button" value="arquivo" title="Dados de arquivo .txt (entradas separadas por linhas)." /> 
+            <input type="file" id="fileInput" style="display: none;" />
+             
+            <input type="file" id="scoreFileInput" style="display: none;" />
+             
+            <input id="help" class="right" type="button" value="?">
+            
+
+            <textarea id="txtData" cols="30" rows="10"></textarea>
+                     
+            <input id="run" type="button" value="executar"/>
+          
+            <span id="txtDataInfo" class="right"></span>
+          
+            <div id="log"></div>
+            <input id="exportar" type="button" value="exportar" disabled />
+            
+            <input id="graphIdxIn" class="right" type="number" min="0" max="11" value="0"/>
+            
+            <input id="makeConfig" class="right" type="button" value="config"/>
+            <input id="makeGraph" class="right" type="button" value="graph"/>
+            
+        </div>
+
+        
+
+    </body>
+</html>
